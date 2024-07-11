@@ -108,8 +108,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 12px;
+  bottom: 5%;
+  /*margin-top: -20px;
   transform: translateY(80px);
+  */
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .slider-navigation .nav-btn:not(:last-child) {
